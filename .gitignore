@@ -1,10 +1,10 @@
 first/HELP.md
 .gradle
 build/
-!/gradle/wrapper/gradle-wrapper.jar
-!gradle/wrapper/gradle-wrapper.properties
+**/gradle/wrapper/
 !**/src/main/**/build/
 !**/src/test/**/build/
+*.exe
 
 ### STS ###
 .apt_generated
